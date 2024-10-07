@@ -1,0 +1,64 @@
+/*ughh raw css, i miss tailwind (/s)*/
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #FFFFFF;
+	color: #555555;
+}
+
+h1 {
+	background-color: #29485D;
+	color: #FFFFFF;
+	margin-bottom: 0;
+	background-image: url("../media/logo.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	font-family: Georiga, serif;
+	line-height: 400%;
+	text-indent: 1em;
+}
+
+nav {
+	background-color: #C6D02F;
+	font-weight: bold;
+}
+nav a {
+	text-decoration: none;
+}
+
+h2 {
+	font-family: Georiga, serif;
+	color: #407386;
+}
+
+h3 {
+	font-family: Georiga, serif;
+}
+
+ul {
+	list-style-image: url("/ch5/media/marker.gif");
+}
+
+li {
+	line-height: 1.5;
+}
+
+dt {
+	color: #0194B5;
+}
+
+footer {
+	font-size: 75%;
+	font-style: italic;
+	text-align: center;
+	font-family: Georiga, serif;
+}
+
+.web {
+	font-weight: bold;
+	color: #0194B5;
+}
+
+#contact {
+	font-size: 90%;
+}

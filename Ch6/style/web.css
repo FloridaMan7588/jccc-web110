@@ -1,0 +1,109 @@
+/*ughh raw css, i miss tailwind (/s)*/
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #0194b5;
+	background-image: linear-gradient(#FFFFFF, #0194b5);
+	background-repeat: no-repeat;
+	color: #555555;
+}
+
+h1 {
+	background-color: #29485D;
+	color: #FFFFFF;
+	margin-bottom: 0;
+	margin-top: 0;
+	background-image: url("../media/logo.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	font-family: Georiga, serif;
+	height: 60px;
+	text-align: center;
+}
+
+nav {
+	background-color: #FFFFFF;
+	text-align: center;
+	padding: 1em;
+	font-weight: bold;
+}
+nav a {
+	text-decoration: none;
+}
+
+main {
+	padding-top: 1px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	display: block;
+}
+
+h2 {
+	font-family: Georiga, serif;
+	color: #407386;
+	box-shadow: 1px 1px 1px #CCCCCC;
+}
+
+h3 {
+	font-family: Georiga, serif;
+}
+
+ul {
+	list-style-image: url("../media/marker.gif");
+}
+
+li {
+	line-height: 1.5;
+}
+
+dt {
+	color: #0194B5;
+}
+
+footer {
+	font-size: 75%;
+	font-style: italic;
+	text-align: center;
+	font-family: Georiga, serif;
+	padding: 2em;
+}
+
+.web {
+	font-weight: bold;
+	color: #0194B5;
+}
+
+#contact {
+	font-size: 90%;
+}
+
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	min-width: 960px;
+	max-width: 2048px;
+	background-color: #FFFFFF;
+	box-shadow: 3px 3px 3px #333333;
+}
+#homehero {
+	height: 400px;
+	background-image: url("../media/homehero.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#trackshero {
+	height: 400px;
+	background-image: url("../media/trackshero.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#facultyhero {
+	height: 400px;
+	background-image: url("../media/facultyhero.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
