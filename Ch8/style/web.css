@@ -1,0 +1,214 @@
+/*ughh raw css, i miss tailwind (/s)*/
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #EAEAEA;
+	color: #555555;
+}
+
+main {
+	background-color: #FFFFFF;
+	overflow: auto;
+	padding-top: 1px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	display: block;
+}
+
+header {
+	background-color: #29485D;
+}
+
+header :link {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+header :visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+header :hover {
+	text-decoration: none;
+	color: #c6d02f;
+}
+
+h1 {
+	letter-spacing: 0.25em;
+	background-color: #29485D;
+	color: #FFFFFF;
+	margin-bottom: 0;
+	margin-top: 0;
+	font-family: Georiga, serif;
+	text-align: center;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+nav {
+	background-color: #FFFFFF;
+	text-align: center;
+	padding: 0;
+	font-weight: bold;
+	font-size: 120%;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav ul {
+	padding-left: 0;
+	list-style-type: none;
+	margin: 0;
+	font-size: 1.2em;
+}
+
+nav li {
+    border-bottom: 1px solid #29485d;
+
+}
+
+nav :link {
+	color: #0194b5;
+}
+
+nav :visited {
+	color: #29485d;
+}
+
+nav :hover {
+	color: #c6d02f;
+}
+
+h2 {
+	font-family: Georiga, serif;
+	color: #407386;
+	box-shadow: 1px 1px 1px #CCCCCC;
+	text-align: center;
+}
+
+main img {
+}
+
+h3 {
+	font-family: Georiga, serif;
+}
+
+main ul {
+	list-style-image: url("../media/marker.gif");
+}
+
+li {
+	line-height: 1.5;
+}
+
+dt {
+	color: #0194B5;
+}
+
+footer {
+	font-size: 75%;
+	font-style: italic;
+	text-align: center;
+	font-family: Georiga, serif;
+	padding: 2em;
+}
+
+.web {
+	font-weight: bold;
+	color: #0194B5;
+}
+
+#contact {
+	font-size: 90%;
+}
+
+#wrapper {
+	background-color: #FFFFFF;
+}
+#homehero {
+	height: 400px;
+	background-image: url("../media/homehero.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#trackshero {
+	height: 400px;
+	background-image: url("../media/trackshero.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#facultyhero {
+	height: 400px;
+	background-image: url("../media/facultyhero.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+@media (min-width: 800px) {
+	body {
+		background-color: #0194B5;
+		background-image: linear-gradient(to bottom, #FFFFFF, #0194B5);
+		background-repeat: no-repeat;
+	}
+	header {
+		height: 120px;
+		padding-top: 30px;
+	}
+	nav {
+		background-color: #FFFFFF;
+		padding: 1em;
+	}
+	nav ul {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-around;
+	}
+	nav li {
+		border-bottom: none;
+	}
+	section {
+		flex: 1;
+		margin-left: 2em;
+		margin-right: 2em;
+	}
+	#flow {
+		display: flex;
+		flex-direction: row;
+		flex: 1;
+	}
+}
+
+@media (min-width: 1250px) {
+	#wrapper {
+		margin: auto;
+		width: 80%;
+		border: 1px solid #000033;
+		box-shadow: 3px 3px 3px #333;
+	}
+	header {
+		background-image: url(../media/logo.png);
+		background-position: right;
+		background-repeat: no-repeat;
+		text-align: left;
+		height: 120px;
+	}
+	h1 {
+		font-size: 2em;
+		letter-spacing: 0.2em;
+		margin-right: 35%;
+		margin-left: 3em;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+}
