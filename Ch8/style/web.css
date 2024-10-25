@@ -72,7 +72,6 @@ nav ul {
 
 nav li {
     border-bottom: 1px solid #29485d;
-
 }
 
 nav :link {
@@ -92,9 +91,6 @@ h2 {
 	color: #407386;
 	box-shadow: 1px 1px 1px #CCCCCC;
 	text-align: center;
-}
-
-main img {
 }
 
 h3 {
