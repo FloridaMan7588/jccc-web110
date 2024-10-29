@@ -117,9 +117,39 @@ footer {
 	padding: 2em;
 }
 
+table {
+	margin: auto;
+	border-collapse: collapse;
+	border: 1px solid #29485d;
+}
+td {
+	padding: 0.5em;
+	border: 2px solid #29485d;
+	text-align: center;
+}
+
+th {
+	padding: 0.5em;
+	border: 2px solid #29485d;
+}
+
+tr {
+	background-color: #f7ecb2;
+}
+
+/*Color matched to assignment image instead of using colors provided*/
+tr:nth-child(even) {
+	color: #3b5367;
+	background-color: #abd2e0;
+}
+
 .web {
 	font-weight: bold;
 	color: #0194B5;
+}
+
+.text {
+	text-align: left;
 }
 
 #contact {
