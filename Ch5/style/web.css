@@ -10,7 +10,7 @@ h1 {
 	background-color: #29485D;
 	color: #FFFFFF;
 	margin-bottom: 0;
-	background-image: url("/media/logo.png");
+	background-image: url("../media/logo.png");
 	background-repeat: no-repeat;
 	background-position: right;
 	font-family: Georiga, serif;
@@ -36,7 +36,7 @@ h3 {
 }
 
 ul {
-	list-style-image: url("/ch5/media/marker.gif");
+	list-style-image: url("../media/marker.gif");
 }
 
 li {
