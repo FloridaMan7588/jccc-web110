@@ -1,0 +1,226 @@
+/*general element style selectors*/
+html {
+	box-sizing: border-box;
+    --main-bg-color: #32292F;
+    --secondary-bg-color: #231D21;
+    --text-color: #F0F7F4;
+}
+
+body {
+	font-family: "Arima", system-ui;
+	font-weight: normal;
+	background-color: var(--main-bg-color);
+}
+
+header a {
+	text-decoration: none;
+    color: var(--text-color);
+}
+
+header a :hover {
+	text-decoration: none;
+	color: var(--text-color);
+}
+
+ul {
+	list-style-type: none;
+}
+main {
+	color: var(--text-color);
+	background-image: linear-gradient(to bottom, var(--main-bg-color), var(--secondary-bg-color));
+	margin: 1em;
+	overflow: auto;
+	padding-top: 1px;
+	display: block;
+	padding: 0.5em;
+	margin: 1em;
+	flex-direction: row;
+	flex-wrap: wrap;
+	padding-right: 1em;
+	padding-left: 1em;
+	padding-bottom: 1em;
+	border-radius: 1em;
+	justify-content: space-around;
+}
+
+main ul {
+	text-align: center;
+	padding: 0;
+}
+
+main img {
+	display: block;
+	width: 100%;
+	height: auto;
+	border-radius: 1em;
+}
+main iframe {
+    display: block;
+    justify-self: center;
+}
+h1 {
+	color: var(--text-color);
+	font-family: "Parkinsans", sans-serif;
+	font-weight: bold;
+}
+
+h2 {
+	color: var(--text-color);
+	text-align: center;
+	font-size: 2em;
+}
+
+h3 {
+	text-align: center;
+}
+
+main p {
+	text-align: center;
+}
+
+/*nav elements*/
+nav {
+	color: var(--text-color);
+	text-align: center;
+	padding: 0;
+	font-weight: bold;
+	text-decoration: none;
+	flex-direction: row;
+}
+
+nav :hover {
+	color: var(--text-color);
+}
+
+nav a {
+	color: var(--text-color);
+}
+
+nav ul {
+	display: flex;
+	font-family: "Parkinsans", sans-serif;
+	font-weight: normal;
+	padding: 0;
+	justify-content: center;
+	margin: 0;
+	font-size: 1.2em;
+}
+
+nav li {
+	max-width: 75%;
+	background-color: #38302E;
+    opacity: 0.6;
+	padding: 6px;
+	margin: 2px;
+	border-radius: 10px;
+}
+
+footer {
+	color: var(--text-color);
+	display: flex;
+	justify-self: center;
+	justify-content: center;
+	min-width: 75%;
+    opacity: 0.8;
+	background-color: #38302E;
+	padding: 6px;
+	margin: 2px;
+	border-radius: 10px;
+}
+
+footer nav {
+    display: none;
+}
+
+form {
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-self: center;
+    display: flex;
+}
+
+form div {
+    padding: 0.5em;
+}
+
+label p {
+    margin: 0;
+}
+
+form textarea {
+    width: 100%;
+    height: 10em;
+}
+
+li a {
+    color: var(--text-color);
+}
+
+/*Screen width media selectors*/
+@media (min-width: 800px) {
+	body {
+		background-image: linear-gradient(to bottom, var(--secondary-bg-color), var(--main-bg-color));
+		background-repeat: no-repeat;
+	}
+
+    footer nav {
+        font-size: 0.8em;
+        border-radius: 10px;
+        padding: 6px;
+        display: flex;
+    }
+	nav {
+		background-color: #38302E;
+        opacity: 0.8;
+		border-radius: 1em;
+		padding: 1em;
+	}
+
+	nav ul {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-around;
+	}
+
+	nav li {
+		border-bottom: none;
+	}
+
+	#wrapper {
+		margin: auto;
+		width: 80%
+	}
+}
+
+@media (min-width: 1250px) {
+	#wrapper {
+		margin: auto;
+		width: 90%;
+	}
+}
+
+/*a couple custom classes, mainly to make links look good*/
+.no-link-style {
+	text-decoration: none;
+}
+
+.no-link-style:visited {
+	text-decoration: none;
+}
+
+.no-link-style:link {
+	text-decoration: none;
+}
+
+.no-link-style :hover {
+	text-decoration: none;
+    color: var(--text-color);
+}
+
+.current-tab {
+    color: #E7ECEF;
+    opacity: 1;
+	text-shadow: 1px 1px 4px #E7ECEF !important;
+}

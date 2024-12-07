@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Cayden (Kay) Haun 12/06/24-->
+<!--Contact Page-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SMNW Choir</title>
+    <link rel="stylesheet" href="style/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Parkinsans:wght@300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="wrapper">
+        <header>
+            <a href="final1.html">
+                <h1>Shawnee Mission Northwest High School Choirs</h1>
+            </a>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="final1.html">Home</a></li>
+                <li><a href="final2.html">Details</a></li>
+                <li><a href="final3.html" class="current-tab">Reach Out</a></li>
+                <li><a href="final4.html">Credits</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h2>Interested in Choir?</h2>
+            <p>Feel free to reach out via either the form below or via Email <a
+                    href='mailto:cassiebanion@smsd.org'>here</a></p>
+            <h3>Reach Out</h3>
+			<form method="post" action="https://webdevbasics.net/scripts/demo.php">
+                <input type="text" placeholder="First Name*" required>
+                <input type="text" placeholder="Last Name*" required>
+                <div>
+                    <p>I am a..</p>
+                    <input type="radio" id="parent" name="parent" value="Parent">
+                    <label for="parent">Parent</label>
+                    <input type="radio" id="student" name="student" value="Student">
+                    <label for="tenor">Student</label>
+                    <input type="radio" id="teacher" name="teacher" value="Teacher">
+                    <label for="teacher">Teacher</label>
+                    <input type="radio" id="other" name="other" value="Other">
+                    <label for="other">Other</label>
+                </div>
+                <div>
+                    <p>I like to sing..</p>
+                    <input type="checkbox" id="bass" name="Bass" />
+                    <label for="bass">Bass/Baritone</label>
+                    <input type="checkbox" id="tenor" name="Tenor" />
+                    <label for="tenor">Tenor</label>
+                    <input type="checkbox" id="alto" name="Alto" />
+                    <label for="alto">Alto</label>
+                    <input type="checkbox" id="soprano" name="Soprano" />
+                    <label for="soprano">Soprano</label>
+                </div>
+                <div>
+                    <input type="date" placeholder="Birthday*" id="birthday" required>
+                    <label for="birthday">Birthday</label>
+                </div>
+                <div>
+                    <label for="grade-select">Select your Grade Level (if applicable)</label>
+                    <select name="grades" id="grade-select">
+                        <option value="none">None</option>
+                        <option value="freshman">Freshman</option>
+                        <option value="sophomore">Sophomore</option>
+                        <option value="junior">Junior</option>
+                        <option value="senior">Senior</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="additionalInfo">
+                        <p>Any other comments</p>
+                    </label>
+                    <br>
+                    <textarea id="additoinalInfo" placeholder="Additional Comments, Contact Info, etc."></textarea>
+                </div>
+                <div>
+                    <button type="reset">Clear</button>
+                    <button type="submit">Submit your Information</button>
+                </div>
+            </form>
+        </main>
+    </div>
+    <footer>
+        <p>&copy; 2024 Cayden Haun</p>
+        <nav>
+            <ul>
+                <li><a href="final1.html">Home</a></li>
+                <li><a href="final2.html">Details</a></li>
+                <li><a href="final3.html" class="current-tab">Reach Out</a></li>
+                <li><a href="final4.html">Credits</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
