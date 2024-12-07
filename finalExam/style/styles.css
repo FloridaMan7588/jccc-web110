@@ -144,10 +144,6 @@ form div {
     padding: 0.5em;
 }
 
-label p {
-    margin: 0;
-}
-
 form textarea {
     width: 100%;
     height: 10em;
